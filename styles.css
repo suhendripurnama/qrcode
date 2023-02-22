@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+  }
+
+body {
+    font-family: Outfit;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(220, 15%, 55%);
+}
+
+p {
+    color:hsl(0, 0%, 100%);
+}
+
+.container {
+    margin: 100px auto;
+    border-radius: 10px;
+    width: 300px;
+    height: 455px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.qr-code {
+    margin: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.title {
+    font-weight: 700;
+    width: 250px;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    color: hsl(218, 44%, 22%);
+}
+
+.description {
+    width: 250px;
+    margin: 18px auto;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
